@@ -11,7 +11,6 @@
 		4600205529C5E2180051EC93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600205429C5E2180051EC93 /* SceneDelegate.swift */; };
 		4600205729C5E2180051EC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600205629C5E2180051EC93 /* ViewController.swift */; };
 		4600205A29C5E2180051EC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4600205829C5E2180051EC93 /* Main.storyboard */; };
-		4600205D29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4600205B29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld */; };
 		4600205F29C5E21A0051EC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4600205E29C5E21A0051EC93 /* Assets.xcassets */; };
 		4600206229C5E21A0051EC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4600206029C5E21A0051EC93 /* LaunchScreen.storyboard */; };
 		46670C7129C6FB9F00B6F927 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7029C6FB9F00B6F927 /* Constant.swift */; };
@@ -51,7 +50,6 @@
 		4600205429C5E2180051EC93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4600205629C5E2180051EC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4600205929C5E2180051EC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4600205C29C5E2180051EC93 /* Vatsal_Practical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vatsal_Practical.xcdatamodel; sourceTree = "<group>"; };
 		4600205E29C5E21A0051EC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4600206129C5E21A0051EC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4600206329C5E21A0051EC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				4600205E29C5E21A0051EC93 /* Assets.xcassets */,
 				4600206029C5E21A0051EC93 /* LaunchScreen.storyboard */,
 				4600206329C5E21A0051EC93 /* Info.plist */,
-				4600205B29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld */,
 			);
 			path = Vatsal_Practical;
 			sourceTree = "<group>";
@@ -343,7 +340,6 @@
 				46670C9D29C733C500B6F927 /* Work.swift in Sources */,
 				46670C9529C733C500B6F927 /* NoteModel.swift in Sources */,
 				46670C9429C733C500B6F927 /* Experience_v1.swift in Sources */,
-				4600205D29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld in Sources */,
 				46670C9729C733C500B6F927 /* Smoking_v1.swift in Sources */,
 				46670C9A29C733C500B6F927 /* Profiles.swift in Sources */,
 				46670C9029C733C500B6F927 /* Mother_tongue.swift in Sources */,
@@ -566,19 +562,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4600205B29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4600205C29C5E2180051EC93 /* Vatsal_Practical.xcdatamodel */,
-			);
-			currentVersion = 4600205C29C5E2180051EC93 /* Vatsal_Practical.xcdatamodel */;
-			path = Vatsal_Practical.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4600204729C5E2170051EC93 /* Project object */;
 }
