@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4600205329C5E2180051EC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600205229C5E2180051EC93 /* AppDelegate.swift */; };
+		4600205529C5E2180051EC93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600205429C5E2180051EC93 /* SceneDelegate.swift */; };
+		4600205729C5E2180051EC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600205629C5E2180051EC93 /* ViewController.swift */; };
+		4600205A29C5E2180051EC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4600205829C5E2180051EC93 /* Main.storyboard */; };
+		4600205D29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4600205B29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld */; };
+		4600205F29C5E21A0051EC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4600205E29C5E21A0051EC93 /* Assets.xcassets */; };
+		4600206229C5E21A0051EC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4600206029C5E21A0051EC93 /* LaunchScreen.storyboard */; };
+		46670C7129C6FB9F00B6F927 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7029C6FB9F00B6F927 /* Constant.swift */; };
+		46670C7329C6FBDB00B6F927 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7229C6FBDB00B6F927 /* AppUtility.swift */; };
+		46670C7529C713C800B6F927 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7429C713C800B6F927 /* OTPVC.swift */; };
+		46670C7729C7195500B6F927 /* NotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7629C7195500B6F927 /* NotesVC.swift */; };
+		46670C8D29C733C500B6F927 /* Industry_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7829C733C300B6F927 /* Industry_v1.swift */; };
+		46670C8E29C733C500B6F927 /* Preference_question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7929C733C300B6F927 /* Preference_question.swift */; };
+		46670C8F29C733C500B6F927 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7A29C733C300B6F927 /* Preferences.swift */; };
+		46670C9029C733C500B6F927 /* Mother_tongue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7B29C733C300B6F927 /* Mother_tongue.swift */; };
+		46670C9129C733C500B6F927 /* Profile_data_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7C29C733C300B6F927 /* Profile_data_list.swift */; };
+		46670C9229C733C500B6F927 /* Faith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7D29C733C300B6F927 /* Faith.swift */; };
+		46670C9329C733C500B6F927 /* Field_of_study_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7E29C733C400B6F927 /* Field_of_study_v1.swift */; };
+		46670C9429C733C500B6F927 /* Experience_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C7F29C733C400B6F927 /* Experience_v1.swift */; };
+		46670C9529C733C500B6F927 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8029C733C400B6F927 /* NoteModel.swift */; };
+		46670C9629C733C500B6F927 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8129C733C400B6F927 /* Photos.swift */; };
+		46670C9729C733C500B6F927 /* Smoking_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8229C733C400B6F927 /* Smoking_v1.swift */; };
+		46670C9829C733C500B6F927 /* Sun_sign_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8329C733C400B6F927 /* Sun_sign_v1.swift */; };
+		46670C9929C733C500B6F927 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8429C733C400B6F927 /* Location.swift */; };
+		46670C9A29C733C500B6F927 /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8529C733C400B6F927 /* Profiles.swift */; };
+		46670C9B29C733C500B6F927 /* Drinking_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8629C733C400B6F927 /* Drinking_v1.swift */; };
+		46670C9C29C733C500B6F927 /* Marital_status_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8729C733C400B6F927 /* Marital_status_v1.swift */; };
+		46670C9D29C733C500B6F927 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8829C733C400B6F927 /* Work.swift */; };
+		46670C9E29C733C500B6F927 /* Likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8929C733C400B6F927 /* Likes.swift */; };
+		46670C9F29C733C500B6F927 /* Invites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8A29C733C400B6F927 /* Invites.swift */; };
+		46670CA029C733C500B6F927 /* Highest_qualification_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8B29C733C400B6F927 /* Highest_qualification_v1.swift */; };
+		46670CA129C733C500B6F927 /* General_information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670C8C29C733C500B6F927 /* General_information.swift */; };
+		46670CA329C7379E00B6F927 /* ProfileCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46670CA229C7379E00B6F927 /* ProfileCVCell.swift */; };
+		C1599D80B5BA897303BA56EF /* Pods_Vatsal_Practical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93976DDF3CE43F863D46AE5 /* Pods_Vatsal_Practical.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		286BD8FC5E772646C1BB0B70 /* Pods-Vatsal_Practical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vatsal_Practical.debug.xcconfig"; path = "Target Support Files/Pods-Vatsal_Practical/Pods-Vatsal_Practical.debug.xcconfig"; sourceTree = "<group>"; };
+		3967A00E77A49D724FAD0AE5 /* Pods-Vatsal_Practical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vatsal_Practical.release.xcconfig"; path = "Target Support Files/Pods-Vatsal_Practical/Pods-Vatsal_Practical.release.xcconfig"; sourceTree = "<group>"; };
+		4600204F29C5E2180051EC93 /* Vatsal_Practical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vatsal_Practical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4600205229C5E2180051EC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4600205429C5E2180051EC93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4600205629C5E2180051EC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4600205929C5E2180051EC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4600205C29C5E2180051EC93 /* Vatsal_Practical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vatsal_Practical.xcdatamodel; sourceTree = "<group>"; };
+		4600205E29C5E21A0051EC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4600206129C5E21A0051EC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4600206329C5E21A0051EC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46670C7029C6FB9F00B6F927 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		46670C7229C6FBDB00B6F927 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		46670C7429C713C800B6F927 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
+		46670C7629C7195500B6F927 /* NotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesVC.swift; sourceTree = "<group>"; };
+		46670C7829C733C300B6F927 /* Industry_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Industry_v1.swift; sourceTree = "<group>"; };
+		46670C7929C733C300B6F927 /* Preference_question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference_question.swift; sourceTree = "<group>"; };
+		46670C7A29C733C300B6F927 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		46670C7B29C733C300B6F927 /* Mother_tongue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mother_tongue.swift; sourceTree = "<group>"; };
+		46670C7C29C733C300B6F927 /* Profile_data_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile_data_list.swift; sourceTree = "<group>"; };
+		46670C7D29C733C300B6F927 /* Faith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faith.swift; sourceTree = "<group>"; };
+		46670C7E29C733C400B6F927 /* Field_of_study_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field_of_study_v1.swift; sourceTree = "<group>"; };
+		46670C7F29C733C400B6F927 /* Experience_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Experience_v1.swift; sourceTree = "<group>"; };
+		46670C8029C733C400B6F927 /* NoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		46670C8129C733C400B6F927 /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		46670C8229C733C400B6F927 /* Smoking_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Smoking_v1.swift; sourceTree = "<group>"; };
+		46670C8329C733C400B6F927 /* Sun_sign_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sun_sign_v1.swift; sourceTree = "<group>"; };
+		46670C8429C733C400B6F927 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		46670C8529C733C400B6F927 /* Profiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+		46670C8629C733C400B6F927 /* Drinking_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drinking_v1.swift; sourceTree = "<group>"; };
+		46670C8729C733C400B6F927 /* Marital_status_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marital_status_v1.swift; sourceTree = "<group>"; };
+		46670C8829C733C400B6F927 /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		46670C8929C733C400B6F927 /* Likes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Likes.swift; sourceTree = "<group>"; };
+		46670C8A29C733C400B6F927 /* Invites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invites.swift; sourceTree = "<group>"; };
+		46670C8B29C733C400B6F927 /* Highest_qualification_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highest_qualification_v1.swift; sourceTree = "<group>"; };
+		46670C8C29C733C500B6F927 /* General_information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General_information.swift; sourceTree = "<group>"; };
+		46670CA229C7379E00B6F927 /* ProfileCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCVCell.swift; sourceTree = "<group>"; };
+		E93976DDF3CE43F863D46AE5 /* Pods_Vatsal_Practical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vatsal_Practical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4600204C29C5E2180051EC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1599D80B5BA897303BA56EF /* Pods_Vatsal_Practical.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4036BAB4400AC1600B99BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				286BD8FC5E772646C1BB0B70 /* Pods-Vatsal_Practical.debug.xcconfig */,
+				3967A00E77A49D724FAD0AE5 /* Pods-Vatsal_Practical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4600204629C5E2170051EC93 = {
+			isa = PBXGroup;
+			children = (
+				4600205129C5E2180051EC93 /* Vatsal_Practical */,
+				4600205029C5E2180051EC93 /* Products */,
+				2C4036BAB4400AC1600B99BA /* Pods */,
+				82E07AA7D58A786822EA051B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4600205029C5E2180051EC93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4600204F29C5E2180051EC93 /* Vatsal_Practical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4600205129C5E2180051EC93 /* Vatsal_Practical */ = {
+			isa = PBXGroup;
+			children = (
+				46670C6F29C6FB7900B6F927 /* Global */,
+				46670C6E29C6F9F100B6F927 /* Model */,
+				46670C6D29C6F9E100B6F927 /* View */,
+				46670C6C29C6F9D900B6F927 /* Controller */,
+				4600205229C5E2180051EC93 /* AppDelegate.swift */,
+				4600205429C5E2180051EC93 /* SceneDelegate.swift */,
+				4600205829C5E2180051EC93 /* Main.storyboard */,
+				4600205E29C5E21A0051EC93 /* Assets.xcassets */,
+				4600206029C5E21A0051EC93 /* LaunchScreen.storyboard */,
+				4600206329C5E21A0051EC93 /* Info.plist */,
+				4600205B29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld */,
+			);
+			path = Vatsal_Practical;
+			sourceTree = "<group>";
+		};
+		46670C6C29C6F9D900B6F927 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4600205629C5E2180051EC93 /* ViewController.swift */,
+				46670C7429C713C800B6F927 /* OTPVC.swift */,
+				46670C7629C7195500B6F927 /* NotesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46670C6D29C6F9E100B6F927 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46670CA229C7379E00B6F927 /* ProfileCVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46670C6E29C6F9F100B6F927 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46670C8629C733C400B6F927 /* Drinking_v1.swift */,
+				46670C7F29C733C400B6F927 /* Experience_v1.swift */,
+				46670C7D29C733C300B6F927 /* Faith.swift */,
+				46670C7E29C733C400B6F927 /* Field_of_study_v1.swift */,
+				46670C8C29C733C500B6F927 /* General_information.swift */,
+				46670C8B29C733C400B6F927 /* Highest_qualification_v1.swift */,
+				46670C7829C733C300B6F927 /* Industry_v1.swift */,
+				46670C8A29C733C400B6F927 /* Invites.swift */,
+				46670C8029C733C400B6F927 /* NoteModel.swift */,
+				46670C8929C733C400B6F927 /* Likes.swift */,
+				46670C8429C733C400B6F927 /* Location.swift */,
+				46670C8729C733C400B6F927 /* Marital_status_v1.swift */,
+				46670C7B29C733C300B6F927 /* Mother_tongue.swift */,
+				46670C8129C733C400B6F927 /* Photos.swift */,
+				46670C7929C733C300B6F927 /* Preference_question.swift */,
+				46670C7A29C733C300B6F927 /* Preferences.swift */,
+				46670C7C29C733C300B6F927 /* Profile_data_list.swift */,
+				46670C8529C733C400B6F927 /* Profiles.swift */,
+				46670C8229C733C400B6F927 /* Smoking_v1.swift */,
+				46670C8329C733C400B6F927 /* Sun_sign_v1.swift */,
+				46670C8829C733C400B6F927 /* Work.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46670C6F29C6FB7900B6F927 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				46670C7029C6FB9F00B6F927 /* Constant.swift */,
+				46670C7229C6FBDB00B6F927 /* AppUtility.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		82E07AA7D58A786822EA051B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E93976DDF3CE43F863D46AE5 /* Pods_Vatsal_Practical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4600204E29C5E2180051EC93 /* Vatsal_Practical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4600206629C5E21A0051EC93 /* Build configuration list for PBXNativeTarget "Vatsal_Practical" */;
+			buildPhases = (
+				BDF6F10C85B5B04D2AF3C2A1 /* [CP] Check Pods Manifest.lock */,
+				4600204B29C5E2180051EC93 /* Sources */,
+				4600204C29C5E2180051EC93 /* Frameworks */,
+				4600204D29C5E2180051EC93 /* Resources */,
+				D3FEAD3B7D254ADDCD58D599 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vatsal_Practical;
+			productName = Vatsal_Practical;
+			productReference = 4600204F29C5E2180051EC93 /* Vatsal_Practical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4600204729C5E2170051EC93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4600204E29C5E2180051EC93 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4600204A29C5E2170051EC93 /* Build configuration list for PBXProject "Vatsal_Practical" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4600204629C5E2170051EC93;
+			productRefGroup = 4600205029C5E2180051EC93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4600204E29C5E2180051EC93 /* Vatsal_Practical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4600204D29C5E2180051EC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4600206229C5E21A0051EC93 /* LaunchScreen.storyboard in Resources */,
+				4600205F29C5E21A0051EC93 /* Assets.xcassets in Resources */,
+				4600205A29C5E2180051EC93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDF6F10C85B5B04D2AF3C2A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vatsal_Practical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3FEAD3B7D254ADDCD58D599 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vatsal_Practical/Pods-Vatsal_Practical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vatsal_Practical/Pods-Vatsal_Practical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vatsal_Practical/Pods-Vatsal_Practical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4600204B29C5E2180051EC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46670C9B29C733C500B6F927 /* Drinking_v1.swift in Sources */,
+				46670C9629C733C500B6F927 /* Photos.swift in Sources */,
+				46670C9229C733C500B6F927 /* Faith.swift in Sources */,
+				4600205729C5E2180051EC93 /* ViewController.swift in Sources */,
+				46670C9E29C733C500B6F927 /* Likes.swift in Sources */,
+				46670C8D29C733C500B6F927 /* Industry_v1.swift in Sources */,
+				46670C9C29C733C500B6F927 /* Marital_status_v1.swift in Sources */,
+				46670C8E29C733C500B6F927 /* Preference_question.swift in Sources */,
+				46670CA329C7379E00B6F927 /* ProfileCVCell.swift in Sources */,
+				46670C9F29C733C500B6F927 /* Invites.swift in Sources */,
+				4600205329C5E2180051EC93 /* AppDelegate.swift in Sources */,
+				46670C7729C7195500B6F927 /* NotesVC.swift in Sources */,
+				46670C7329C6FBDB00B6F927 /* AppUtility.swift in Sources */,
+				46670C9129C733C500B6F927 /* Profile_data_list.swift in Sources */,
+				46670C7529C713C800B6F927 /* OTPVC.swift in Sources */,
+				46670C9329C733C500B6F927 /* Field_of_study_v1.swift in Sources */,
+				46670C8F29C733C500B6F927 /* Preferences.swift in Sources */,
+				46670C9829C733C500B6F927 /* Sun_sign_v1.swift in Sources */,
+				46670CA129C733C500B6F927 /* General_information.swift in Sources */,
+				46670C9929C733C500B6F927 /* Location.swift in Sources */,
+				46670C7129C6FB9F00B6F927 /* Constant.swift in Sources */,
+				46670C9D29C733C500B6F927 /* Work.swift in Sources */,
+				46670C9529C733C500B6F927 /* NoteModel.swift in Sources */,
+				46670C9429C733C500B6F927 /* Experience_v1.swift in Sources */,
+				4600205D29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld in Sources */,
+				46670C9729C733C500B6F927 /* Smoking_v1.swift in Sources */,
+				46670C9A29C733C500B6F927 /* Profiles.swift in Sources */,
+				46670C9029C733C500B6F927 /* Mother_tongue.swift in Sources */,
+				4600205529C5E2180051EC93 /* SceneDelegate.swift in Sources */,
+				46670CA029C733C500B6F927 /* Highest_qualification_v1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4600205829C5E2180051EC93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4600205929C5E2180051EC93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4600206029C5E21A0051EC93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4600206129C5E21A0051EC93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4600206429C5E21A0051EC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4600206529C5E21A0051EC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4600206729C5E21A0051EC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286BD8FC5E772646C1BB0B70 /* Pods-Vatsal_Practical.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vatsal_Practical/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsal.Vatsal-Practical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4600206829C5E21A0051EC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3967A00E77A49D724FAD0AE5 /* Pods-Vatsal_Practical.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vatsal_Practical/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsal.Vatsal-Practical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4600204A29C5E2170051EC93 /* Build configuration list for PBXProject "Vatsal_Practical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4600206429C5E21A0051EC93 /* Debug */,
+				4600206529C5E21A0051EC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4600206629C5E21A0051EC93 /* Build configuration list for PBXNativeTarget "Vatsal_Practical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4600206729C5E21A0051EC93 /* Debug */,
+				4600206829C5E21A0051EC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4600205B29C5E2180051EC93 /* Vatsal_Practical.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4600205C29C5E2180051EC93 /* Vatsal_Practical.xcdatamodel */,
+			);
+			currentVersion = 4600205C29C5E2180051EC93 /* Vatsal_Practical.xcdatamodel */;
+			path = Vatsal_Practical.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4600204729C5E2170051EC93 /* Project object */;
+}
